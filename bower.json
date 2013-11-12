@@ -1,0 +1,23 @@
+{
+  "name": "browser-i18n",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gammasoft/browser-i18n",
+  "authors": [
+    "Gammasoft Desenvolvimento de Software Ltda <contact@gammasoft.com.br>"
+  ],
+  "description": "Simple tool for i18n in the browser",
+  "main": "i18n.js",
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "browser"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
