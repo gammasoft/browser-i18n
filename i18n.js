@@ -36,6 +36,7 @@ I18n.prototype = {
         $.ajax({
             url: this.directory + "/" + this.locale + this.extension,
             async: false,
+            dataType: 'json',
             success: function(data){
                 localeFile = data;
             }
