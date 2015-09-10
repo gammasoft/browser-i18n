@@ -31,9 +31,9 @@ with the difference that this script is browser only (not a node.js module).
   
   console.log(i18n.__("Hello")); //Hallo
   console.log(i18n.__("Hello %s", "Foo")); //Hallo Foo
-  console.log(i18n.__n("%s cat", 0)) //keine katzen
-  console.log(i18n.__n("%s cat", 1)) //1 katze
-  console.log(i18n.__n("%s cat", 2)) //2 katzen
+  console.log(i18n.__n("%s cat", 0)) //keine Katzen
+  console.log(i18n.__n("%s cat", 1)) //1 Katze
+  console.log(i18n.__n("%s cat", 2)) //2 Katzen
 </script>
 ```
 
@@ -64,9 +64,9 @@ You will have to create a separate locale file for each language. Locale files s
   "Hello": "Hallo",
   "Hello %s": "Hallo %s",
   "%s cat": {
-  	"zero": "keine katzen",
-    "one": "%s katze",
-    "other": "%s katzen"
+  	"zero": "keine Katzen",
+    "one": "%s Katze",
+    "other": "%s Katzen"
   }
 }
 ```
