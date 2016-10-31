@@ -72,7 +72,7 @@ You will have to create a separate locale file for each language. Locale files s
 ```
 
 Mind that you can use [Sprintf](https://github.com/alexei/sprintf.js) syntax in your locale files
-so don't forget checking their documantation to get the most out of browser-i18n
+so don't forget checking their documentation to get the most out of browser-i18n.
 
 ### Dependencies
 1. [JQuery](http://jquery.com/) 
